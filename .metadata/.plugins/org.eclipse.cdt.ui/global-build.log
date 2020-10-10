@@ -1,0 +1,68 @@
+12:14:43 **** Incremental Build of configuration Debug for project stm32_HelloWorld ****
+make -j4 all 
+Building file: ../Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c
+Building file: ../Third-Party/FreeRTOS/org/Source/croutine.c
+Building file: ../Third-Party/FreeRTOS/org/Source/event_groups.c
+Building file: ../Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.d" -MT"Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.o" -o "Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.o" "../Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c"
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/croutine.d" -MT"Third-Party/FreeRTOS/org/Source/croutine.o" -o "Third-Party/FreeRTOS/org/Source/croutine.o" "../Third-Party/FreeRTOS/org/Source/croutine.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.d" -MT"Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.o" -o "Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.o" "../Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/event_groups.d" -MT"Third-Party/FreeRTOS/org/Source/event_groups.o" -o "Third-Party/FreeRTOS/org/Source/event_groups.o" "../Third-Party/FreeRTOS/org/Source/event_groups.c"
+Finished building: ../Third-Party/FreeRTOS/org/Source/croutine.c
+ 
+Finished building: ../Third-Party/FreeRTOS/org/Source/event_groups.c
+Building file: ../Third-Party/FreeRTOS/org/Source/list.c
+Finished building: ../Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c
+ 
+Invoking: MCU GCC Compiler
+ 
+Finished building: ../Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.c
+Building file: ../Third-Party/FreeRTOS/org/Source/queue.c
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+Building file: ../Third-Party/FreeRTOS/org/Source/stream_buffer.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/list.d" -MT"Third-Party/FreeRTOS/org/Source/list.o" -o "Third-Party/FreeRTOS/org/Source/list.o" "../Third-Party/FreeRTOS/org/Source/list.c"
+ 
+Invoking: MCU GCC Compiler
+Building file: ../Third-Party/FreeRTOS/org/Source/tasks.c
+Invoking: MCU GCC Compiler
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/queue.d" -MT"Third-Party/FreeRTOS/org/Source/queue.o" -o "Third-Party/FreeRTOS/org/Source/queue.o" "../Third-Party/FreeRTOS/org/Source/queue.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/stream_buffer.d" -MT"Third-Party/FreeRTOS/org/Source/stream_buffer.o" -o "Third-Party/FreeRTOS/org/Source/stream_buffer.o" "../Third-Party/FreeRTOS/org/Source/stream_buffer.c"
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/tasks.d" -MT"Third-Party/FreeRTOS/org/Source/tasks.o" -o "Third-Party/FreeRTOS/org/Source/tasks.o" "../Third-Party/FreeRTOS/org/Source/tasks.c"
+Finished building: ../Third-Party/FreeRTOS/org/Source/list.c
+ 
+Building file: ../Third-Party/FreeRTOS/org/Source/timers.c
+Invoking: MCU GCC Compiler
+N:\Workspace\RTOS_Workspace\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/core" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Config" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/Third-Party/FreeRTOS/org/Source/include" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/CMSIS/device" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/inc" -I"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/StdPeriph_Driver/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third-Party/FreeRTOS/org/Source/timers.d" -MT"Third-Party/FreeRTOS/org/Source/timers.o" -o "Third-Party/FreeRTOS/org/Source/timers.o" "../Third-Party/FreeRTOS/org/Source/timers.c"
+Finished building: ../Third-Party/FreeRTOS/org/Source/stream_buffer.c
+Finished building: ../Third-Party/FreeRTOS/org/Source/queue.c
+ 
+ 
+Finished building: ../Third-Party/FreeRTOS/org/Source/tasks.c
+ 
+Finished building: ../Third-Party/FreeRTOS/org/Source/timers.c
+ 
+Building target: stm32_HelloWorld.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"N:/Workspace/RTOS_Workspace/stm32_HelloWorld/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "stm32_HelloWorld.elf" @"objects.list"   -lm
+Finished building target: stm32_HelloWorld.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "stm32_HelloWorld.elf" "stm32_HelloWorld.bin"
+arm-none-eabi-size "stm32_HelloWorld.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2384	   1080	   1348	   4812	   12cc	stm32_HelloWorld.elf
+ 
